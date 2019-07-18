@@ -1,0 +1,113 @@
+====================================================
+ linux commands
+====================================================
+ps (process)
+logout (logoout from user account)
+clear (clear the screen)
+man (details for the command)
+help (summary for the command)
+whatis (single line description for the command)
+cal (current month calendar)
+date (current day/date/time/timezone will be display)
+who (users connected, remote+local)
+who am i (one user connected, only local)
+who -r (run-level, run-level 3 (working fine), run-level 2 (under maintenance))
+who -H -u (display the user's info with process ID)
+kill PID (kill the process ID)
+pwd (print (or) present working directory)
+cd .. (comeout from subdirectory, one level back)
+cd (comeout to root from subdirectory or directory)
+ls (list files)
+ls -l (display long list files with file permissions & directory or files)
+ls -lart (display all files,directories including hidden & configuration with script files)
+ls -LF (display directories with "/" symbol)
+shutdown (poweroff OS)
+shutdown now (immediate poweroff OS)
+cat > <filename> (create a file)
+cat >> <filename> (append a file)
+cat > <filename> (overwrite a file (or) create a new file if file does not exist)
+cat <filename> >> <filename> (all date copied from one file to another file, if file does not exist it will create a new file with copying all data)
+touch <filename1> <filename2>.... (creates a new single (or) multiple files, also can create hidden files)
+vi <filename> (vi is a editor like notepad)
+mkdir <directory name> (create new directory)
+cd <directory name> (jump inside directory)
+cd .. (comeout from directory)
+mkdir -p J1/J2/J3 (creates nested directories)
+cd J1/J2/J3 (jumping directly inside J3 subdirectory)
+mv <filename1> <filename2> (rename file (or) move file from one location to another)
+rmdir <directory name> (remove empty directory)
+rm -rf <directory name> (remove directory with data)
+rm <filename> (remove file with/without data)
+hostname -I (display local system ip address)
+ip addr show (display all the ip address details)
+ifconfig (display all the ip address details)
+ping (check the internet connection (or) between two hosts)
+hostname (display server name)
+hostnamectl set-hostname <servername> (changing server-name)
+cp <filename1> <filename2> (copy data from one file to another file, if file does not exist it will create another file)
+yum install -y <packagename> (install the given package)
+tree <parent directory> (display all the nested directories in tree structure)
+top (display task manager, process info)
+free -m (display memory info)
+uname -r (display kernel version)
+finger (display user's info)
+finger <username> (display single user info)
+uptime (display server info with no. of user's connected)
+wc <filename> (display word count)
+which <command name> (display executable info of programs)
+whereis <command name> (display binary(/bin, /sbin), manual(/man), configuration(/etc) file info)
+chmod <permissions> <filename> (change mode will add/remove/update file permissions)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
