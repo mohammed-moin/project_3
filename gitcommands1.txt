@@ -37,7 +37,7 @@ git push origin master
 git remote remove origin
 git status
 git branch
-git checkout <branch name to change branch>
+git checkout <branch name> (move to another branch)
 git merge <branch name to merge files>
 git branch -d <branch name to delete>
 git branch -m <to change current branch name>
